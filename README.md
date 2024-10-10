@@ -34,7 +34,7 @@ This feature ensures that legitimate contracts are not left without operators du
 
 The MangrovePoints contract is built on OpenZeppelin's Ownable contract and implements the IMangrovePoints interface. Here's an overview of its functionality:
 
-```sol
+```solidity
 contract MangrovePoints is Ownable(msg.sender), IMangrovePoints {
   /**
    * @inheritdoc IMangrovePoints
